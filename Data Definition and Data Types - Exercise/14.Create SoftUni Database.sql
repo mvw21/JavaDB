@@ -31,3 +31,4 @@ CREATE TABLE `employees` (
 `salary` DECIMAL,
 `address_id` INT(11),CONSTRAINT fk_address FOREIGN KEY (address_id) REFERENCES addresses(id)
 );
+
